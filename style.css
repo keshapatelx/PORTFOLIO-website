@@ -6,6 +6,7 @@
 .sidebar{
     background-color: red;
     width: 20vw;
+    height: 100vh;
     font-family: 'Outfit', sans-serif;
 }
 .sidebar nav{
@@ -18,10 +19,22 @@
 }
 .main{
     background-color: yellow;
-    width: 80vw;
+    width: 90vw;
 }
 
 .container{
     display: flex;
 
+}
+.infoContainer{
+    background-color: rgba(255, 145, 0, 0.959);
+    height: 45vh;
+width: 80vw;
+margin: 144px auto;
+height: 78vh;
+display: flex;
+justify-content: space-around;
+}
+.devPic img{
+    width: 381px;
 }
